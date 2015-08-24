@@ -44,7 +44,7 @@ try:
     
   print 'well done'
   exit(0)
-except (IOError, SyntaxError) as e:
+except (IOError, SyntaxError, ValueError) as e:
   pass
   
 print 'Not quite right, try again!'
