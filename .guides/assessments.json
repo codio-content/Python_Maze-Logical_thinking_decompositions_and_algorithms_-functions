@@ -1,0 +1,50 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1728655712",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python /home/codio/workspace/.guides/tests/ch-1.py",
+   "instructions": "We want you to write a function that calculates the score.\n\nWe have provided you with the following event handlers\n\n- `hitMonsterEvent()`\n- `hitEnergyEvent()`\n\nYou should \n\n- create a function that calculates the game score using this simple formula. \n\n$$\nscore = \\dfrac{energy \\times 5}{steps}\n$$\n\n- call this function from each of the event handlers\n- add 5 to the player energy if you collect energy\n- subtract 5 from the player energy if you touch a monster\n\n**Important:** do not call your function `score()` as this is used by the game as a variable to hold the score.",
+   "name": "Creating a function"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2150872117",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python /home/codio/workspace/.guides/tests/ch-3.py",
+   "instructions": "Create a function `calcScore()` that returns the score based on the usual formula of \n\n$$\nscore = \\dfrac{energy \\times 5}{steps}\n$$\n\nThe lines that sets the score have been commented out as there currently is no calcScore function defined. Don't forget to uncomment them once you have defined your calcScore function.",
+   "name": "Function returns"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2646396945",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python /home/codio/workspace/.guides/tests/ch-2.py",
+   "instructions": "In this challenge, we've provided you with the `calcScore()` function. We want you to complete the monster and energy event handlers so the scoring is correctly handled.\n\nUse a factor of 6 as the function argument.\n",
+   "name": "Function paramaters"
+  }
+ }
+]
